@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <link rel="stylesheet" href="style.css" />
+        <style>            
+          body{
+                background-image: url("basha.jpeg");
+                background-repeat: no-repeat;
+                    background-size: 100%;
+                text-align: center;
+                margin-left: 550px;
+                margin-top: 100px;
+            }
+           
+            .forma{
+
+                <!-- position: absolute; -->
+                position: relative;
+                width: 250px;
+                border: 3px solid #FFFFFF;
+                <!-- margin-left: 550px;
+                margin-top: 100px; -->
+               padding: auto;
+                background-image: url("black.jpg");
+               background: rgba(0, 0, 0, 0.5); 
+               color: #FFFFFF;
+            }
+            .ti{
+                font-weight: bold;
+                font-size: 30px;
+            }
+            button{
+                color: black;
+                background-color: red;
+                border-radius: 18px;
+                padding: 8px 60px;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .us{
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        
+         <form class="forma">
+            <p class="ti"><span style="font-size: 60px;">L</span>ogig Here </p>
+            <label class="us">User Name</label>
+            <br/>
+            <br/>
+            <input type="text" placeholder="user user name or email" size="25" style="padding: 5px;"/>
+            <br/>
+            <br/>
+            <label class="us" >password</label>
+            <br/>
+            <br/>
+            <input id="pass" type="password" value="" placeholder="enter password" size="25" style="padding: 5px;"/>
+            <br/>
+            <br/>
+            <button>login</button>
+            <br/>
+            <br/>
+            <input type="checkbox" id="condition" name="condition" value="chose">
+            <label for="condition" style="color: blue;"> i accept the condition</label>
+            <br/>
+            <input type="checkbox" id="laws" name="laws" value="chose" >
+            <label for="laws" style="color: blue;"> i read laws</label>
+            <br>
+            <br/>
+        </form>
+        
+    </body>
+</html>
