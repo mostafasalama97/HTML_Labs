@@ -5,47 +5,73 @@
         <link rel="stylesheet" href="style.css" />
         <style>            
           body{
+            z-index: 1;
                 background-image: url("basha.jpeg");
                 background-repeat: no-repeat;
                     background-size: 100%;
                 text-align: center;
-                margin-left: 550px;
-                margin-top: 100px;
+                /* margin-left: 550px;
+                 margin-top: 100px;  */
+                
             }
            
             .forma{
 
-                <!-- position: absolute; -->
-                position: relative;
+                /* position: absolute;  */
+                position: relative; 
+                z-index: 1;
+                display: block;
                 width: 250px;
                 border: 3px solid #FFFFFF;
-                <!-- margin-left: 550px;
-                margin-top: 100px; -->
+                  margin-left: 550px;
+                margin-top: 100px;  
                padding: auto;
                 background-image: url("black.jpg");
                background: rgba(0, 0, 0, 0.5); 
                color: #FFFFFF;
+              
             }
             .ti{
+                z-index: 1;
                 font-weight: bold;
                 font-size: 30px;
+                
             }
             button{
+                z-index: 1;
                 color: black;
                 background-color: red;
                 border-radius: 18px;
                 padding: 8px 60px;
                 font-size: 18px;
                 font-weight: bold;
+                
             }
             .us{
+                z-index: 1;
                 font-weight: bold;
+                
             }
+
+            .dragon{
+                border-radius: 50%;
+                width: 100px;
+                /* position: relative;  */
+                position: absolute;
+                text-align: center ;
+                margin-left : 620px;   
+                margin-top: -60px;
+                /* padding: 20px; */
+                
+                z-index: 2; 
+                display: block; 
+            } 
         </style>
     </head>
     <body>
-        
+        <img class="dragon" src="dragon.jpg" alt="dragon photo" title="smile" /> 
          <form class="forma">
+             <!-- <img class="dragon" src="dragon.jpg" alt="dragon photo" title="smile" />  -->
             <p class="ti"><span style="font-size: 60px;">L</span>ogig Here </p>
             <label class="us">User Name</label>
             <br/>
